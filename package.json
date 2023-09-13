@@ -1,0 +1,57 @@
+{
+  "name": "qr-manager",
+  "version": "0.0.1",
+  "description": "a powerful package to create qr-codes with images and without images with realy any url, or just use it to validate and scan qr-codes.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "qr",
+    "qr-code",
+    "qr-generator",
+    "generator",
+    "qr-manager",
+    "sdevs"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "authors": [
+    {
+      "name": "BinaryBlazer",
+      "email": "binaryblazer@sdevs.org"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "web",
+    "url": "https://github.com/sdevs-bws/qr-manager",
+    "homepage": "https://sdevs.org"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@types/jimp": "^0.2.28",
+    "@types/qrcode": "^1.5.2",
+    "axios": "^1.5.0",
+    "jimp": "^0.22.10",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.3",
+    "qrcode-reader": "^1.0.4",
+    "sharp": "^0.32.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "access": "public"
+}
